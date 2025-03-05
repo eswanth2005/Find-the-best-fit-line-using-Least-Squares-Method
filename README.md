@@ -42,7 +42,8 @@ for i in range(len(X)):
 m=num/denom
 #calculate intercept
 b=Y_mean-m*X_mean
-print(m,b)
+print("Slope:"m)
+print("Intercept:",b)
 #Line equation
 y_predicted=m*X+b
 print(y_predicted)
